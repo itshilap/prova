@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+width: auto;
+height: 100%;
+/*background-color: #acac;*/
+padding: 30px 250px;
+}
+
+.header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: #aaa;*/
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500, bold;
+  font-size: 16px;
+  color: #101049;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li, a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500, bold;
+  font-size: 16px;
+  color: #101049;
+  text-decoration: none;
+}
+
+#portfolio {
+  border-bottom: 2px solid #101049;
+  padding-top: 5px;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 50px;
+  color: #101049;
+}
+
+ h2 {
+  font-size: 22px;
+  width: 60%;
+  color: #101049;
+  font-family: "Roboto", serif;
+  font-weight: normal;
+}
+
+.fila img{
+  width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+.footer-content {
+  width: auto;
+background-color: #101049;
+margin-bottom: 0;
+padding: 0px;
+overflow: hidden;
+}
+
+h4 {
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-weight: normal;
+  /*border: 5px solid #ccc;*/
+}
+
+
+
+/* RESPONSIVE */
+/* Mobile Styles */
+  @media only screen and (min-width: 320px) and (max-width: 480px){
+    .content {
+      max-width: 100%;
+      height: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* background-color: #aaa; */
+    }
+
+.logo-container { display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: #fff; */
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+
+.nav-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /*background-color: #acac;*/
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 10px;
+  padding-left: 0px;
+  margin: auto;
+}
+
+/*#home {
+  display: none;
+}*/
+
+.text-container {
+  padding-top: 0px;
+  max-width: 300px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 25px;
+  width: 100%;
+}
+
+/* PROJECTS */
+.projects-container {
+  padding-top: 20px;
+  /*background-color: #f6d2ac;*/
+  max-width: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.project-item {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 0;
+  }
+
+.project-item img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/*FOOTER*/
+
+.footer-content {
+  min-width: 320px;
+  max-width: 480px;
+background-color: #101049;
+}
+
+h4 {
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-weight: normal;
+  /*border: 5px solid #ccc;*/
+}
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 481px) and (max-width: 760px) {
+
+    .content {
+      max-width: 1920px;
+      padding: 30px 100px;
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* background-color: #aaa; */
+    }
+
+  .logo-container { display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: #fff; */
+  }
+
+  .logo {
+  padding-bottom: 10px;
+  }
+
+  .nav-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /*background-color: #acac;*/
+  padding: 0;
+  }
+
+  .nav-links li {
+  padding: 10px;
+  padding-left: 0px;
+  margin: auto;
+  }
+
+  h2 {
+    width: 100%;
+  }
+h4 {
+  padding-left: 100px;
+  padding-right: 0px;
+}
+  }
+
+
+
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 761px) and (max-width: 960px) {
+
+    .content {
+      max-width: 1920px;
+      padding: 30px 100px;
+    }
+
+    h2 {
+      width: 100%;
+    }
+
+    h4 {
+      padding-left: 100px;
+    }
+  }
